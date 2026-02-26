@@ -181,8 +181,3 @@ Multiple sizing strategies were tested:
 3. *Design of Ultra Low Power 6T SRAM Cell using 180 nm CMOS Technology*, IEEE MESIICON 2022  
 
 ---
-
-## Author
-**R. Vrsha Solachi**  
-EC24M2013  
-IC Design Lab Project
