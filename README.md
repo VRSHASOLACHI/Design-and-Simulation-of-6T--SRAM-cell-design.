@@ -45,7 +45,7 @@ This configuration enables **high-speed, low-power static memory storage**.
   - BL = VDD, BL̅ = 0, WL = 1  
   - Node Q is pulled HIGH, Q̅ goes LOW  
 
-🔹 **Design Requirement:**  
+**Design Requirement:**  
 Access transistors must be **stronger than pull-up PMOS** to overwrite stored data.
 
 ---
@@ -57,7 +57,7 @@ Access transistors must be **stronger than pull-up PMOS** to overwrite stored da
   - One bitline discharges slightly
   - Sense amplifier detects ΔV
 
-🔹 **Cell Ratio Constraint:**  
+ **Cell Ratio Constraint:**  
 Pull-down NMOS must be stronger than access NMOS to prevent data corruption during read.
 
 ---
@@ -82,14 +82,14 @@ Pull-down NMOS must be stronger than access NMOS to prevent data corruption duri
 
 ---
 
-## 🔬 Design Exploration
+## Design Exploration
 Multiple sizing strategies were tested:
 1. Equal sizing for all transistors  
 2. Stronger PMOS, weaker NMOS  
 3. Capacitive loading effects  
 
 
-## 🧪 Pre-Layout Simulation Results
+## Pre-Layout Simulation Results
 
 ### DC Analysis
 - Threshold Voltage ≈ **601.664 mV**
